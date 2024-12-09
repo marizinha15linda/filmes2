@@ -1,0 +1,29 @@
+.banner{
+    background-image: linear-gradient(rgb(135, 74, 163), rgb(97, 97, 255));
+    color: whitesmoke;
+    text-align: center;
+    padding: 3em 3em;
+}
+
+.banner_titulo{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.banner_search{
+    background-color:rgb(165, 18, 140);
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 12px;
+    padding: 1em;
+
+}
+
+.banner_search::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(120, 93, 255);
+    text-align: center;
+    background: url("/img/lupi.png") no-repeat;
+    background-position: 1em;
+}

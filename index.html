@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <title>marilinda</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+            <img src="img/favoritar.png" alt="" class="conts_img">
+        </div>
+        <div class="const">
+            <a href="#"><img src="img/favoritar.png" alt="" class="conts_img"></a>
+            <a href="#"><img src="img/wishlist.jpg" alt="" class="conts_img"></a>
+            <a href="#"><img src="img/icon.png" alt="" class="conts_img"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner_titulo"> 
+            O que está a fim de ver?
+        </h2>
+        <input type="search" name="" class="banner_search" placeholder="Bora lar?">
+    </section>
+    <section class="carro">
+        <h2 class="carro_titulo">
+            Disponíveis
+        </h2>
+        <div class="swiper">
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/1.jfif" alt=""></div>
+              <div class="swiper-slide"><img src="img/2.jfif" alt=""></div>
+              <div class="swiper-slide"><img src="img/3.jfif" alt=""></div>
+              <div class="swiper-slide"><img src="img/4.jfif" alt=""></div>
+              <div class="swiper-slide"><img src="img/5.jfif" alt=""></div>
+              <div class="swiper-slide"><img src="img/6.jfif" alt=""></div>
+              ...
+            </div>
+
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="card">
+                <div class="card_detail">
+                    <div class="detail">
+                        <h3 class="detail_titulo">
+                            Filmes incríveis para assistir em família ou até mesmo sozinho!!!
+                        </h3>
+                    </div>
+                    <img src="img/eah.jpg" alt="">
+                </div>
+            </div>
+          
+          </div>
+          
+    </section>
+    <section class="topicos"> 
+        <h2 class="topico_titulo"> Gêneros
+            <ul class="lista">
+                <li class="item">Desenho</li>
+                <li class="item">Comédia</li>
+                <li class="item">Romance</li>
+                <li class="item">Terror</li>
+                <li class="item">Aventura</li>
+                <li class="item">Clássico</li>
+            </ul>
+        </h2>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 100,
+        slidesPerView: 4,
+        pagination:{
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+});
+    </script>
+</body>
+</html>
